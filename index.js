@@ -2,7 +2,8 @@ import { connection } from "./src/DB/db.js";
 import express from "express";
 import Product from "./src/models/product_model.js";
 import { data } from "./src/data/data.js";
-
+// Enable CORS
+app.use(cors());
 const app = express();
 connection();
 app.listen(process.env.PORT, () => {
