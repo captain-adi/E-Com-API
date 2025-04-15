@@ -1,0 +1,649 @@
+  [
+    {
+      "id": 1,
+      "title": "Essence Mascara Lash Princess",
+      "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+      "category": "beauty",
+      "price": 9.99,
+      "discountPercentage": 7.17,
+      "rating": 4.94,
+      "stock": 5,
+      "tags": [
+        "beauty",
+        "mascara"
+      ],
+      "brand": "Essence",
+      "sku": "RCH45Q1A",
+      "weight": 2,
+      "dimensions": {
+        "width": 23.17,
+        "height": 14.43,
+        "depth": 28.01
+      },
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 24,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "9164035109868",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+    },
+    {
+      "id": 200,
+      "title": "Total leadingedge software",
+      "description": "Total leadingedge software - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 112.22,
+      "discountPercentage": 12.41,
+      "rating": 4.01,
+      "stock": 52,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Jones, Roberts and Allen",
+      "sku": "JMb-32613",
+      "weight": 624,
+      "dimensions": {
+        "width": 28.41,
+        "height": 13.49,
+        "depth": 30.06
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Second level but account week work.",
+          "date": "2025-04-09T12:45:41.781337Z",
+          "reviewerName": "Mark Krause",
+          "reviewerEmail": "edward50@medina-daniel.org"
+        },
+        {
+          "rating": 4,
+          "comment": "Particular news sign statement ago Mrs.",
+          "date": "2025-04-09T12:45:41.781337Z",
+          "reviewerName": "Marissa Smith",
+          "reviewerEmail": "bporter@garcia.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.781337Z",
+        "updatedAt": "2025-04-09T12:45:41.781337Z",
+        "barcode": "1095884592016",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/61Z9LJIYepL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/61Z9LJIYepL._AC_UL320_.jpg"
+    },
+    {
+      "id": 201,
+      "title": "Horizontal multi-tasking superstructure",
+      "description": "Horizontal multi-tasking superstructure - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 76.32,
+      "discountPercentage": 10.44,
+      "rating": 3.99,
+      "stock": 10,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Guzman-White",
+      "sku": "YjB-47627",
+      "weight": 964,
+      "dimensions": {
+        "width": 22.27,
+        "height": 14.84,
+        "depth": 33.95
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Out of Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Defense hotel page life experience understand.",
+          "date": "2025-04-09T12:45:41.783793Z",
+          "reviewerName": "Barbara Sanders",
+          "reviewerEmail": "cnguyen@obrien.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.783793Z",
+        "updatedAt": "2025-04-09T12:45:41.783793Z",
+        "barcode": "5517229140769",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71HUIiZ8ZdL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/71HUIiZ8ZdL._AC_UL320_.jpg"
+    },
+    {
+      "id": 202,
+      "title": "Phased asymmetric infrastructure",
+      "description": "Phased asymmetric infrastructure - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 102.28,
+      "discountPercentage": 16.63,
+      "rating": 3.8,
+      "stock": 21,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Caldwell, Smith and Lynn",
+      "sku": "bPZ-46044",
+      "weight": 643,
+      "dimensions": {
+        "width": 25.34,
+        "height": 12.23,
+        "depth": 34.62
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Out of Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Outside human nice believe have fill.",
+          "date": "2025-04-09T12:45:41.785635Z",
+          "reviewerName": "Thomas Green",
+          "reviewerEmail": "hudsoncynthia@cuevas.com"
+        },
+        {
+          "rating": 3,
+          "comment": "Relationship perhaps up chair near truth end.",
+          "date": "2025-04-09T12:45:41.785635Z",
+          "reviewerName": "Gabriela Nguyen",
+          "reviewerEmail": "sandersshelia@gmail.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Wrong type trial child why political end.",
+          "date": "2025-04-09T12:45:41.785635Z",
+          "reviewerName": "Lisa Robinson",
+          "reviewerEmail": "vrogers@gay.biz"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.785635Z",
+        "updatedAt": "2025-04-09T12:45:41.785635Z",
+        "barcode": "8897530293253",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/61BOzG+G1TL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/61BOzG+G1TL._AC_UL320_.jpg"
+    },
+    {
+      "id": 203,
+      "title": "Open-source tertiary artificial intelligence",
+      "description": "Open-source tertiary artificial intelligence - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 39.03,
+      "discountPercentage": 17.42,
+      "rating": 4.94,
+      "stock": 16,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Mcclain Ltd",
+      "sku": "rqZ-94454",
+      "weight": 628,
+      "dimensions": {
+        "width": 23.63,
+        "height": 10.16,
+        "depth": 33.35
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Out of Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mind money people conference office along.",
+          "date": "2025-04-09T12:45:41.789479Z",
+          "reviewerName": "Kristin Powell",
+          "reviewerEmail": "crawfordkathryn@hotmail.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Imagine almost what contain lot space.",
+          "date": "2025-04-09T12:45:41.789479Z",
+          "reviewerName": "Madeline Lopez",
+          "reviewerEmail": "brandy71@love.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.789479Z",
+        "updatedAt": "2025-04-09T12:45:41.789479Z",
+        "barcode": "5108357108495",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/61r9oNywMeL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/61r9oNywMeL._AC_UL320_.jpg"
+    },
+    {
+      "id": 204,
+      "title": "Re-contextualized interactive Graphic Interface",
+      "description": "Re-contextualized interactive Graphic Interface - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 62.42,
+      "discountPercentage": 22.09,
+      "rating": 4.77,
+      "stock": 36,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Bowman, Donaldson and Gonzalez",
+      "sku": "Qks-47507",
+      "weight": 590,
+      "dimensions": {
+        "width": 25.24,
+        "height": 14.0,
+        "depth": 30.87
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Full know story its here.",
+          "date": "2025-04-09T12:45:41.791053Z",
+          "reviewerName": "Bobby Hines",
+          "reviewerEmail": "kennethnguyen@hotmail.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.791053Z",
+        "updatedAt": "2025-04-09T12:45:41.791053Z",
+        "barcode": "6099013539144",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81R6YbNKOzL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/81R6YbNKOzL._AC_UL320_.jpg"
+    },
+    {
+      "id": 205,
+      "title": "Persistent empowering projection",
+      "description": "Persistent empowering projection - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 95.96,
+      "discountPercentage": 24.18,
+      "rating": 4.05,
+      "stock": 84,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Mcdaniel-Brown",
+      "sku": "iJr-02558",
+      "weight": 576,
+      "dimensions": {
+        "width": 28.6,
+        "height": 11.67,
+        "depth": 30.14
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Other between lot he never off.",
+          "date": "2025-04-09T12:45:41.791835Z",
+          "reviewerName": "Tiffany Sanchez",
+          "reviewerEmail": "jessehernandez@alexander-bowen.net"
+        },
+        {
+          "rating": 5,
+          "comment": "Energy coach various offer.",
+          "date": "2025-04-09T12:45:41.791835Z",
+          "reviewerName": "Justin Ross",
+          "reviewerEmail": "fowlertina@walker-sanford.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Work someone big important local player training.",
+          "date": "2025-04-09T12:45:41.791835Z",
+          "reviewerName": "Heather Riley",
+          "reviewerEmail": "jacobhernandez@gmail.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.791835Z",
+        "updatedAt": "2025-04-09T12:45:41.791835Z",
+        "barcode": "3234125868673",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71uXqhGZ7XL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/71uXqhGZ7XL._AC_UL320_.jpg"
+    },
+    {
+      "id": 206,
+      "title": "Virtual cohesive encryption",
+      "description": "Virtual cohesive encryption - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 122.55,
+      "discountPercentage": 18.17,
+      "rating": 4.65,
+      "stock": 55,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Harmon-Willis",
+      "sku": "FQA-26684",
+      "weight": 689,
+      "dimensions": {
+        "width": 21.57,
+        "height": 14.74,
+        "depth": 32.48
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Out of Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Type look Mr plant.",
+          "date": "2025-04-09T12:45:41.793694Z",
+          "reviewerName": "Brian Rodriguez",
+          "reviewerEmail": "robert27@savage-robbins.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Indicate in understand magazine grow stuff.",
+          "date": "2025-04-09T12:45:41.793694Z",
+          "reviewerName": "Lindsey Villarreal",
+          "reviewerEmail": "cynthia80@montoya-cobb.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.793694Z",
+        "updatedAt": "2025-04-09T12:45:41.793694Z",
+        "barcode": "2899118585008",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71SMEIcxr4L._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/71SMEIcxr4L._AC_UL320_.jpg"
+    },
+    {
+      "id": 207,
+      "title": "Monitored dynamic migration",
+      "description": "Monitored dynamic migration - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 73.24,
+      "discountPercentage": 6.68,
+      "rating": 4.27,
+      "stock": 55,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Gordon PLC",
+      "sku": "kwz-10856",
+      "weight": 854,
+      "dimensions": {
+        "width": 23.41,
+        "height": 10.92,
+        "depth": 28.7
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Anything cup best family key herself professional computer.",
+          "date": "2025-04-09T12:45:41.795080Z",
+          "reviewerName": "Jennifer Ramos",
+          "reviewerEmail": "jennifer11@phelps.com"
+        },
+        {
+          "rating": 3,
+          "comment": "Play perform dream environment condition commercial coach.",
+          "date": "2025-04-09T12:45:41.795080Z",
+          "reviewerName": "Ryan May",
+          "reviewerEmail": "davisjustin@hatfield-ramirez.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.795080Z",
+        "updatedAt": "2025-04-09T12:45:41.795080Z",
+        "barcode": "1193432895203",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71G2e2LxN+L._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/71G2e2LxN+L._AC_UL320_.jpg"
+    },
+    {
+      "id": 208,
+      "title": "Self-enabling tangible projection",
+      "description": "Self-enabling tangible projection - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 42.13,
+      "discountPercentage": 10.35,
+      "rating": 3.94,
+      "stock": 71,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Jones-Johnson",
+      "sku": "mwM-89982",
+      "weight": 1077,
+      "dimensions": {
+        "width": 21.6,
+        "height": 12.67,
+        "depth": 28.39
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Congress record toward eight hard.",
+          "date": "2025-04-09T12:45:41.796293Z",
+          "reviewerName": "Ronald Jenkins",
+          "reviewerEmail": "walkerstacy@smith.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.796293Z",
+        "updatedAt": "2025-04-09T12:45:41.796293Z",
+        "barcode": "6637738925233",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/61VHvg7wvCL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/61VHvg7wvCL._AC_UL320_.jpg"
+    },
+    {
+      "id": 209,
+      "title": "Configurable uniform support",
+      "description": "Configurable uniform support - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 129.17,
+      "discountPercentage": 7.14,
+      "rating": 4.86,
+      "stock": 49,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Wilkins Inc",
+      "sku": "KFb-78715",
+      "weight": 682,
+      "dimensions": {
+        "width": 26.57,
+        "height": 10.8,
+        "depth": 31.91
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Understand so common personal.",
+          "date": "2025-04-09T12:45:41.797279Z",
+          "reviewerName": "Steven Taylor",
+          "reviewerEmail": "mary47@jackson-anderson.com"
+        },
+        {
+          "rating": 3,
+          "comment": "Hand old activity.",
+          "date": "2025-04-09T12:45:41.797279Z",
+          "reviewerName": "Robert Carter",
+          "reviewerEmail": "nancycastillo@bennett-johnston.com"
+        },
+        {
+          "rating": 3,
+          "comment": "Explain if senior possible would police issue.",
+          "date": "2025-04-09T12:45:41.797279Z",
+          "reviewerName": "Chad Juarez",
+          "reviewerEmail": "collinsevan@thomas-white.net"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.797279Z",
+        "updatedAt": "2025-04-09T12:45:41.797279Z",
+        "barcode": "7395452642094",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81oYzJMrnDL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/81oYzJMrnDL._AC_UL320_.jpg"
+    },
+    {
+      "id": 210,
+      "title": "Devolved local complexity",
+      "description": "Devolved local complexity - Comfortable, stylish, and built for performance. Perfect for everyday wear or athletic use.",
+      "category": "shoes",
+      "price": 126.55,
+      "discountPercentage": 16.64,
+      "rating": 3.78,
+      "stock": 53,
+      "tags": [
+        "shoes",
+        "footwear",
+        "style"
+      ],
+      "brand": "Kim Group",
+      "sku": "tOb-04404",
+      "weight": 882,
+      "dimensions": {
+        "width": 21.94,
+        "height": 13.89,
+        "depth": 29.93
+      },
+      "warrantyInformation": "6 months manufacturer warranty",
+      "shippingInformation": "Usually ships in 3-5 business days",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Because federal read home act size.",
+          "date": "2025-04-09T12:45:41.799365Z",
+          "reviewerName": "Bryan Olson",
+          "reviewerEmail": "wellsdavid@payne.com"
+        }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T12:45:41.799365Z",
+        "updatedAt": "2025-04-09T12:45:41.799365Z",
+        "barcode": "5771183487067",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/51El8PhSrgL._AC_UL320_.jpg"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/51El8PhSrgL._AC_UL320_.jpg"
+    }
+  ]
