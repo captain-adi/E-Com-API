@@ -9,8 +9,8 @@ const getAllCategories = asyncHandler(async (req, res) => {
       new ApiResponse(
         true,
         "All Categories Fetched Successfully",
-        categoryData,
-        200
+        200,
+        categoryData
       )
     );
 });

@@ -65,13 +65,11 @@ const logout = asyncHandler(async (req, res) => {
 });
 
 const isAuth = asyncHandler(async (req, res) => {
-  res
-    .status(200)
-    .json(
-      new ApiResponse(true, "User is loggedin ", {
-        user: { id: user._id, username: user.username, email: user.email },
-      })
-    );
+  res.status(200).json(
+    new ApiResponse(true, "User is loggedin ", 200, {
+      user: { id: user._id, username: user.username, email: user.email },
+    })
+  );
 });
 
 export { signup, login, logout, isAuth };
