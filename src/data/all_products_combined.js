@@ -1,11 +1,12 @@
- [
+ export const productData = [
   {
     "id": 1,
-    "title": "Smartphone Model 1",
+    "title": "poco C61",
     "description": "This is a premium quality phones product, built for daily use and high performance.",
     "category": "phones",
-    "price": 984.97,
-    "discountPercentage": 17.96,
+    "price": 5799,
+    "originalPrice":8999,
+    "discountPercentage": 36,
     "rating": 4.13,
     "stock": 52,
     "tags": [
@@ -61,11 +62,12 @@
   },
   {
     "id": 2,
-    "title": "Smartphone Model 2",
+    "title": "Google Pixel 8a ",
     "description": "This is a premium quality phones product, built for daily use and high performance.",
     "category": "phones",
-    "price": 277.99,
-    "discountPercentage": 8.79,
+    "price": 39000,
+    "discountPercentage": 26,
+    "originalPrice":52999,
     "rating": 4.65,
     "stock": 59,
     "tags": [
@@ -121,11 +123,12 @@
   },
   {
     "id": 3,
-    "title": "Smartphone Model 3",
+    "title": "Samsung Galaxy M16 5G",
     "description": "This is a premium quality phones product, built for daily use and high performance.",
     "category": "phones",
-    "price": 831.25,
-    "discountPercentage": 24.31,
+    "price": 12999,
+    "originalPrice":17499,
+    "discountPercentage": 26,
     "rating": 4.0,
     "stock": 69,
     "tags": [
@@ -181,11 +184,12 @@
   },
   {
     "id": 4,
-    "title": "Smartphone Model 4",
+    "title": "Apple iPhone 15 ",
     "description": "This is a premium quality phones product, built for daily use and high performance.",
     "category": "phones",
-    "price": 755.11,
-    "discountPercentage": 6.77,
+    "price": 61390,
+    "originalPrice":79900,
+    "discountPercentage": 23,
     "rating": 4.96,
     "stock": 18,
     "tags": [
@@ -241,11 +245,12 @@
   },
   {
     "id": 5,
-    "title": "Smartphone Model 5",
+    "title": "OnePlus 13R | Smarter with OnePlus AI",
     "description": "This is a premium quality phones product, built for daily use and high performance.",
     "category": "phones",
-    "price": 459.16,
-    "discountPercentage": 15.63,
+    "price": 42998,
+    "originalPrice":44999,
+    "discountPercentage": 4,
     "rating": 4.28,
     "stock": 75,
     "tags": [
@@ -301,11 +306,12 @@
   },
   {
     "id": 6,
-    "title": "Smartphone Model 6",
+    "title": "Samsung Galaxy S24 5G AI Smartphone ",
     "description": "This is a premium quality phones product, built for daily use and high performance.",
     "category": "phones",
-    "price": 849.83,
-    "discountPercentage": 16.87,
+    "price": 56560,
+    "originalPrice":79999,
+    "discountPercentage": 29,
     "rating": 4.36,
     "stock": 77,
     "tags": [
@@ -361,11 +367,12 @@
   },
   {
     "id": 7,
-    "title": "Smartphone Model 7",
+    "title": "Samsung Galaxy S25 Ultra 5G AI Smartphone",
     "description": "This is a premium quality phones product, built for daily use and high performance.",
     "category": "phones",
-    "price": 612.13,
-    "discountPercentage": 7.62,
+    "price": 141999,
+    "originalPrice":165999,
+    "discountPercentage": 7,
     "rating": 4.02,
     "stock": 83,
     "tags": [
@@ -419,11 +426,14 @@
     ],
     "thumbnail": "https://m.media-amazon.com/images/I/71P85R392uL._AC_UY327_FMwebp_QL65_.jpg"
   },
+
+
   {
     "id": 8,
-    "title": "Fashion Wear 1",
+    "title": "Hero man wear",
     "description": "This is a premium quality clothes product, built for daily use and high performance.",
     "category": "clothes",
+    "originalPrice": 1200,
     "price": 774.6,
     "discountPercentage": 13.98,
     "rating": 4.97,
@@ -484,6 +494,7 @@
     "title": "Fashion Wear 2",
     "description": "This is a premium quality clothes product, built for daily use and high performance.",
     "category": "clothes",
+    "originalPrice":1400,
     "price": 259.43,
     "discountPercentage": 19.02,
     "rating": 4.61,
@@ -544,8 +555,9 @@
     "title": "Fashion Wear 3",
     "description": "This is a premium quality clothes product, built for daily use and high performance.",
     "category": "clothes",
-    "price": 14.72,
-    "discountPercentage": 11.91,
+    "originalPrice":1400,
+    "price": 700,
+    "discountPercentage": 30,
     "rating": 4.04,
     "stock": 12,
     "tags": [
@@ -605,6 +617,7 @@
     "description": "This is a premium quality clothes product, built for daily use and high performance.",
     "category": "clothes",
     "price": 833.77,
+    "originalPrice" : 1599,
     "discountPercentage": 14.17,
     "rating": 4.87,
     "stock": 93,
@@ -664,6 +677,7 @@
     "title": "Fashion Wear 5",
     "description": "This is a premium quality clothes product, built for daily use and high performance.",
     "category": "clothes",
+    "originalPrice" : 1999,
     "price": 886.52,
     "discountPercentage": 24.91,
     "rating": 4.32,
@@ -725,6 +739,7 @@
     "description": "This is a premium quality clothes product, built for daily use and high performance.",
     "category": "clothes",
     "price": 739.84,
+    "originalPrice":2099,
     "discountPercentage": 20.73,
     "rating": 3.86,
     "stock": 56,
@@ -785,6 +800,7 @@
     "description": "This is a premium quality clothes product, built for daily use and high performance.",
     "category": "clothes",
     "price": 522.66,
+    "originalPrice":1599,
     "discountPercentage": 24.99,
     "rating": 4.48,
     "stock": 19,
@@ -846,6 +862,7 @@
     "category": "clothes",
     "price": 946.76,
     "discountPercentage": 9.48,
+    "originalPrice":1999,
     "rating": 4.62,
     "stock": 26,
     "tags": [
@@ -899,373 +916,326 @@
     ],
     "thumbnail": "https://m.media-amazon.com/images/I/610P48f27iL._AC_UL320_.jpg"
   },
-  {
-    "id": 16,
-    "title": "Running Shoes 1",
-    "description": "This is a premium quality shoes product, built for daily use and high performance.",
-    "category": "shoes",
-    "price": 787.51,
-    "discountPercentage": 15.8,
-    "rating": 3.53,
-    "stock": 55,
-    "tags": [
-      "shoes",
-      "trending"
-    ],
-    "brand": "ShoesBrand",
-    "sku": "B68B8868",
-    "weight": 0.75,
-    "dimensions": {
-      "width": 46.24,
-      "height": 40.33,
-      "depth": 4.3
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.434525"
+
+  
+  
+    {
+      "id": 16,
+      "title": "KILLER",
+      "description": "This is a premium quality shoes product, built for daily use and high performance.",
+      "category": "shoes",
+      "originalPrice": 1999,
+      "price": 623,
+      "discountPercentage": 68,
+      "rating": 3.53,
+      "stock": 55,
+      "tags": [
+        "shoes",
+        "trending"
+      ],
+      "brand": "ShoesBrand",
+      "sku": "B68B8868",
+      "weight": 0.75,
+      "dimensions": {
+        "width": 46.24,
+        "height": 40.33,
+        "depth": 4.3
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.434525"
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent product!",
+          "reviewerName": "Alice Smith",
+          "reviewerEmail": "alice@example.com",
+          "date": "2025-04-09T06:45:13.434525"
+        },
+        {
+          "rating": 4,
+          "comment": "Very good, satisfied.",
+          "reviewerName": "Bob Jones",
+          "reviewerEmail": "bob@example.com",
+          "date": "2025-04-09T06:45:13.434525"
+        },
+        {
+          "rating": 3,
+          "comment": "Average experience.",
+          "reviewerName": "Carol Lee",
+          "reviewerEmail": "carol@example.com",
+          "date": "2025-04-09T06:45:13.434525"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 4,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.434527",
+        "updatedAt": "2025-04-09T06:45:13.434529",
+        "barcode": "4448825199636",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.434525"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 4,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.434527",
-      "updatedAt": "2025-04-09T06:45:13.434529",
-      "barcode": "4448825199636",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/b/i/e/9-kl17-killer-white-original-imah379u8dey57hh.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/b/i/e/9-kl17-killer-white-original-imah379u8dey57hh.jpeg?q=70"
     },
-    "images": [
-      "https://example.com/shoe1.jpg"
-    ],
-    "thumbnail": "https://example.com/shoe1.jpg"
-  },
-  {
-    "id": 17,
-    "title": "Running Shoes 2",
-    "description": "This is a premium quality shoes product, built for daily use and high performance.",
-    "category": "shoes",
-    "price": 972.43,
-    "discountPercentage": 14.19,
-    "rating": 4.31,
-    "stock": 87,
-    "tags": [
-      "shoes",
-      "trending"
-    ],
-    "brand": "ShoesBrand",
-    "sku": "2D28B882",
-    "weight": 0.86,
-    "dimensions": {
-      "width": 21.55,
-      "height": 37.13,
-      "depth": 3.29
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.434574"
+    {
+      "id": 17,
+      "title": "action",
+      "description": "This is a premium quality shoes product, built for daily use and high performance.",
+      "category": "shoes",
+      "originalPrice": 1699,
+      "price": 600,
+      "discountPercentage": 64,
+      "rating": 4.31,
+      "stock": 87,
+      "tags": [
+        "shoes",
+        "trending"
+      ],
+      "brand": "ShoesBrand",
+      "sku": "2D28B882",
+      "weight": 0.86,
+      "dimensions": {
+        "width": 21.55,
+        "height": 37.13,
+        "depth": 3.29
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.434574"
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent product!",
+          "reviewerName": "Alice Smith",
+          "reviewerEmail": "alice@example.com",
+          "date": "2025-04-09T06:45:13.434574"
+        },
+        {
+          "rating": 4,
+          "comment": "Very good, satisfied.",
+          "reviewerName": "Bob Jones",
+          "reviewerEmail": "bob@example.com",
+          "date": "2025-04-09T06:45:13.434574"
+        },
+        {
+          "rating": 3,
+          "comment": "Average experience.",
+          "reviewerName": "Carol Lee",
+          "reviewerEmail": "carol@example.com",
+          "date": "2025-04-09T06:45:13.434574"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.434577",
+        "updatedAt": "2025-04-09T06:45:13.434578",
+        "barcode": "4731602964751",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.434574"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.434577",
-      "updatedAt": "2025-04-09T06:45:13.434578",
-      "barcode": "4731602964751",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/g/u/10-sr-153-black-10-action-black-original-imahfhjpdjhpxrvd.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/g/u/10-sr-153-black-10-action-black-original-imahfhjpdjhpxrvd.jpeg?q=70"
     },
-    "images": [
-      "https://example.com/shoe2.jpg"
-    ],
-    "thumbnail": "https://example.com/shoe2.jpg"
-  },
-  {
-    "id": 18,
-    "title": "Running Shoes 3",
-    "description": "This is a premium quality shoes product, built for daily use and high performance.",
-    "category": "shoes",
-    "price": 512.44,
-    "discountPercentage": 6.69,
-    "rating": 4.7,
-    "stock": 48,
-    "tags": [
-      "shoes",
-      "trending"
-    ],
-    "brand": "ShoesBrand",
-    "sku": "A102B8FD",
-    "weight": 0.87,
-    "dimensions": {
-      "width": 48.43,
-      "height": 32.06,
-      "depth": 5.39
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.434649"
+    {
+      "id": 18,
+      "title": "button",
+      "description": "This is a premium quality shoes product, built for daily use and high performance.",
+      "category": "shoes",
+      "originalPrice": 2499,
+      "price": 397,
+      "discountPercentage": 84,
+      "rating": 4.7,
+      "stock": 48,
+      "tags": [
+        "shoes",
+        "trending"
+      ],
+      "brand": "ShoesBrand",
+      "sku": "A102B8FD",
+      "weight": 0.87,
+      "dimensions": {
+        "width": 48.43,
+        "height": 32.06,
+        "depth": 5.39
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.434649"
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent product!",
+          "reviewerName": "Alice Smith",
+          "reviewerEmail": "alice@example.com",
+          "date": "2025-04-09T06:45:13.434649"
+        },
+        {
+          "rating": 4,
+          "comment": "Very good, satisfied.",
+          "reviewerName": "Bob Jones",
+          "reviewerEmail": "bob@example.com",
+          "date": "2025-04-09T06:45:13.434649"
+        },
+        {
+          "rating": 3,
+          "comment": "Average experience.",
+          "reviewerName": "Carol Lee",
+          "reviewerEmail": "carol@example.com",
+          "date": "2025-04-09T06:45:13.434649"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.434660",
+        "updatedAt": "2025-04-09T06:45:13.434661",
+        "barcode": "9334151950149",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.434649"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.434660",
-      "updatedAt": "2025-04-09T06:45:13.434661",
-      "barcode": "9334151950149",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/b/b/o/6-851-blue-6-6-bruton-blue-original-imahb3hhe6zgv2kh.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/b/b/o/6-851-blue-6-6-bruton-blue-original-imahb3hhe6zgv2kh.jpeg?q=70"
     },
-    "images": [
-      "https://example.com/shoe3.jpg"
-    ],
-    "thumbnail": "https://example.com/shoe3.jpg"
-  },
-  {
-    "id": 19,
-    "title": "Running Shoes 4",
-    "description": "This is a premium quality shoes product, built for daily use and high performance.",
-    "category": "shoes",
-    "price": 294.4,
-    "discountPercentage": 7.24,
-    "rating": 4.67,
-    "stock": 79,
-    "tags": [
-      "shoes",
-      "trending"
-    ],
-    "brand": "ShoesBrand",
-    "sku": "54A7023B",
-    "weight": 0.64,
-    "dimensions": {
-      "width": 48.0,
-      "height": 47.2,
-      "depth": 8.03
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.434947"
+    {
+      "id": 19,
+      "title": "aadi",
+      "description": "This is a premium quality shoes product, built for daily use and high performance.",
+      "category": "shoes",
+      "originalPrice": 1999,
+      "price": 396,
+      "discountPercentage": 80,
+      "rating": 4.67,
+      "stock": 79,
+      "tags": [
+        "shoes",
+        "trending"
+      ],
+      "brand": "ShoesBrand",
+      "sku": "54A7023B",
+      "weight": 0.64,
+      "dimensions": {
+        "width": 48.0,
+        "height": 47.2,
+        "depth": 8.03
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.434947"
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent product!",
+          "reviewerName": "Alice Smith",
+          "reviewerEmail": "alice@example.com",
+          "date": "2025-04-09T06:45:13.434947"
+        },
+        {
+          "rating": 4,
+          "comment": "Very good, satisfied.",
+          "reviewerName": "Bob Jones",
+          "reviewerEmail": "bob@example.com",
+          "date": "2025-04-09T06:45:13.434947"
+        },
+        {
+          "rating": 3,
+          "comment": "Average experience.",
+          "reviewerName": "Carol Lee",
+          "reviewerEmail": "carol@example.com",
+          "date": "2025-04-09T06:45:13.434947"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 4,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.434954",
+        "updatedAt": "2025-04-09T06:45:13.434957",
+        "barcode": "1464447629942",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.434947"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 4,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.434954",
-      "updatedAt": "2025-04-09T06:45:13.434957",
-      "barcode": "1464447629942",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/q/x/j/11-mrj2308-11-aadi-grey-original-imah27ueth9hdftj.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/q/x/j/11-mrj2308-11-aadi-grey-original-imah27ueth9hdftj.jpeg?q=70"
     },
-    "images": [
-      "https://example.com/shoe4.jpg"
-    ],
-    "thumbnail": "https://example.com/shoe4.jpg"
-  },
-  {
-    "id": 20,
-    "title": "Running Shoes 5",
-    "description": "This is a premium quality shoes product, built for daily use and high performance.",
-    "category": "shoes",
-    "price": 795.53,
-    "discountPercentage": 8.32,
-    "rating": 4.35,
-    "stock": 41,
-    "tags": [
-      "shoes",
-      "trending"
-    ],
-    "brand": "ShoesBrand",
-    "sku": "AC455E7F",
-    "weight": 0.96,
-    "dimensions": {
-      "width": 22.29,
-      "height": 29.38,
-      "depth": 1.92
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435010"
+    {
+      "id": 20,
+      "title": "ferrarri",
+      "description": "This is a premium quality shoes product, built for daily use and high performance.",
+      "category": "shoes",
+      "originalPrice": 1199,
+      "price": 499,
+      "discountPercentage": 58,
+      "rating": 4.63,
+      "stock": 63,
+      "tags": [
+        "shoes",
+        "trending"
+      ],
+      "brand": "ShoesBrand",
+      "sku": "AC55C0F5",
+      "weight": 0.85,
+      "dimensions": {
+        "width": 40.94,
+        "height": 38.99,
+        "depth": 4.88
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435010"
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent product!",
+          "reviewerName": "Alice Smith",
+          "reviewerEmail": "alice@example.com",
+          "date": "2025-04-09T06:45:13.434992"
+        },
+        {
+          "rating": 4,
+          "comment": "Very good, satisfied.",
+          "reviewerName": "Bob Jones",
+          "reviewerEmail": "bob@example.com",
+          "date": "2025-04-09T06:45:13.434992"
+        },
+        {
+          "rating": 3,
+          "comment": "Average experience.",
+          "reviewerName": "Carol Lee",
+          "reviewerEmail": "carol@example.com",
+          "date": "2025-04-09T06:45:13.434992"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 3,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.434997",
+        "updatedAt": "2025-04-09T06:45:13.434999",
+        "barcode": "3464910736942",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435010"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 3,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435014",
-      "updatedAt": "2025-04-09T06:45:13.435017",
-      "barcode": "2869909868052",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://example.com/shoe5.jpg"
-    ],
-    "thumbnail": "https://example.com/shoe5.jpg"
-  },
-  {
-    "id": 21,
-    "title": "Running Shoes 6",
-    "description": "This is a premium quality shoes product, built for daily use and high performance.",
-    "category": "shoes",
-    "price": 421.03,
-    "discountPercentage": 16.28,
-    "rating": 3.94,
-    "stock": 58,
-    "tags": [
-      "shoes",
-      "trending"
-    ],
-    "brand": "ShoesBrand",
-    "sku": "1099B4A0",
-    "weight": 2.88,
-    "dimensions": {
-      "width": 20.36,
-      "height": 18.6,
-      "depth": 6.94
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435062"
-      },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435062"
-      },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435062"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 3,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435066",
-      "updatedAt": "2025-04-09T06:45:13.435067",
-      "barcode": "2962878648809",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://example.com/shoe6.jpg"
-    ],
-    "thumbnail": "https://example.com/shoe6.jpg"
-  },
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/n/g/v/9-bfs-539-brown-original-imaghf8pswd4zhff.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/n/g/v/9-bfs-539-brown-original-imaghf8pswd4zhff.jpeg?q=70"
+    }
+  ,
+  
+
+  
   {
     "id": 22,
-    "title": "Gadget 1",
+    "title": "Portronics Beem 440 Smart LED Projector ",
     "description": "This is a premium quality electronics product, built for daily use and high performance.",
     "category": "electronics",
-    "price": 495.66,
-    "discountPercentage": 7.92,
+    "price": 6799,
+    "originalPrice":19999,
+    "discountPercentage": 66,
     "rating": 4.91,
     "stock": 22,
     "tags": [
@@ -1315,17 +1285,18 @@
       "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
     },
     "images": [
-      "https://example.com/electronics1.jpg"
+      "https://m.media-amazon.com/images/I/51bGfdFAG5L._AC_UL320_.jpg"
     ],
     "thumbnail": "https://example.com/electronics1.jpg"
   },
   {
     "id": 23,
-    "title": "Gadget 2",
+    "title": "boAt Lunar Discovery ",
     "description": "This is a premium quality electronics product, built for daily use and high performance.",
     "category": "electronics",
-    "price": 515.52,
-    "discountPercentage": 11.32,
+    "price": 1499,
+    "originalPrice":8499,
+    "discountPercentage": 82,
     "rating": 4.6,
     "stock": 42,
     "tags": [
@@ -1375,17 +1346,18 @@
       "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
     },
     "images": [
-      "https://example.com/electronics2.jpg"
+      "https://m.media-amazon.com/images/I/71Iit7U1S+L._AC_UL320_.jpg"
     ],
     "thumbnail": "https://example.com/electronics2.jpg"
   },
   {
     "id": 24,
-    "title": "Gadget 3",
+    "title": "Noise Buds N1 in-Ear True Wireless Earbuds",
     "description": "This is a premium quality electronics product, built for daily use and high performance.",
     "category": "electronics",
-    "price": 576.17,
-    "discountPercentage": 5.98,
+    "price": 899,
+    "originalPrice":3499,
+    "discountPercentage": 74,
     "rating": 4.13,
     "stock": 18,
     "tags": [
@@ -1435,17 +1407,18 @@
       "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
     },
     "images": [
-      "https://example.com/electronics3.jpg"
+      "https://m.media-amazon.com/images/I/51AC9X+E+3L._AC_UL320_.jpg"
     ],
     "thumbnail": "https://example.com/electronics3.jpg"
   },
   {
     "id": 25,
-    "title": "Gadget 4",
+    "title": "wipro 9-Watt B22 WiFi Smart LED Bulb with Music Sync",
     "description": "This is a premium quality electronics product, built for daily use and high performance.",
     "category": "electronics",
-    "price": 955.1,
-    "discountPercentage": 7.29,
+    "price": 589,
+    "originalPrice":2199,
+    "discountPercentage": 72,
     "rating": 4.58,
     "stock": 11,
     "tags": [
@@ -1495,7 +1468,7 @@
       "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
     },
     "images": [
-      "https://example.com/electronics4.jpg"
+      "https://m.media-amazon.com/images/I/51T0RbnCy6L._AC_UL320_.jpg"
     ],
     "thumbnail": "https://example.com/electronics4.jpg"
   },
@@ -1504,8 +1477,9 @@
     "title": "Gadget 5",
     "description": "This is a premium quality electronics product, built for daily use and high performance.",
     "category": "electronics",
-    "price": 151.55,
-    "discountPercentage": 18.73,
+    "price": 109 ,
+    "originalPrice":599,
+    "discountPercentage": 82,
     "rating": 3.71,
     "stock": 28,
     "tags": [
@@ -1555,17 +1529,18 @@
       "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
     },
     "images": [
-      "https://example.com/electronics5.jpg"
+      "https://m.media-amazon.com/images/I/616jdfyhw8L._AC_UL320_.jpg"
     ],
     "thumbnail": "https://example.com/electronics5.jpg"
   },
   {
     "id": 27,
-    "title": "Gadget 6",
+    "title": "Cosmic Byte G2050 RGB 7.1 ",
     "description": "This is a premium quality electronics product, built for daily use and high performance.",
     "category": "electronics",
-    "price": 242.01,
-    "discountPercentage": 24.27,
+    "price": 1999,
+    "discountPercentage": 23,
+    "originalPrice":2599,
     "rating": 3.81,
     "stock": 53,
     "tags": [
@@ -1615,368 +1590,229 @@
       "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
     },
     "images": [
-      "https://example.com/electronics6.jpg"
+      "https://m.media-amazon.com/images/I/61IZzoHuCGL._AC_UL320_.jpg"
     ],
     "thumbnail": "https://example.com/electronics6.jpg"
   },
-  {
-    "id": 28,
-    "title": "Book Title 1",
-    "description": "This is a premium quality books product, built for daily use and high performance.",
-    "category": "books",
-    "price": 101.19,
-    "discountPercentage": 13.59,
-    "rating": 4.31,
-    "stock": 47,
-    "tags": [
-      "books",
-      "trending"
-    ],
-    "brand": "BooksBrand",
-    "sku": "4A78325A",
-    "weight": 1.5,
-    "dimensions": {
-      "width": 30.15,
-      "height": 21.29,
-      "depth": 4.61
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435356"
+
+
+  
+    {
+      "id": 101,
+      "title": "Wings Of Fire - ABDUL KALAM",
+      "description": "This is a premium quality books product, built for daily use and high performance.",
+      "category": "books",
+      "price": 167,
+      "originalPrice": 499,
+      "discountPercentage": 64,
+      "rating": 4.7,
+      "stock": 84,
+      "tags": ["books", "trending"],
+      "brand": "BooksBrand",
+      "sku": "BOOK001",
+      "weight": 1.17,
+      "dimensions": { "width": 15.26, "height": 23.74, "depth": 7.82 },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Inspiring and deeply motivational. A must-read for every young mind.",
+          "reviewerName": "Ritika Sharma",
+          "reviewerEmail": "ritika.sharma@email.com",
+          "date": "2025-04-09T10:00:00"
+        },
+        {
+          "rating": 4,
+          "comment": "Loved the simplicity and vision shared by Kalam sir.",
+          "reviewerName": "Ravi Mehta",
+          "reviewerEmail": "ravi.mehta@email.com",
+          "date": "2025-04-10T09:00:00"
+        },
+        {
+          "rating": 3,
+          "comment": "Good read, but a bit slow in the middle chapters.",
+          "reviewerName": "Neha Sinha",
+          "reviewerEmail": "neha.sinha@email.com",
+          "date": "2025-04-11T08:30:00"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.435537",
+        "updatedAt": "2025-04-09T06:45:13.435539",
+        "barcode": "5780284616621",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435356"
-      },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435356"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435360",
-      "updatedAt": "2025-04-09T06:45:13.435361",
-      "barcode": "9885665125190",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/l0sgyvk0/regionalbooks/d/f/z/wings-of-fire-original-imagcg7tkwdygk8g.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/l0sgyvk0/regionalbooks/d/f/z/wings-of-fire-original-imagcg7tkwdygk8g.jpeg?q=70"
     },
-    "images": [
-      "https://example.com/book1.jpg"
-    ],
-    "thumbnail": "https://example.com/book1.jpg"
-  },
-  {
-    "id": 29,
-    "title": "Book Title 2",
-    "description": "This is a premium quality books product, built for daily use and high performance.",
-    "category": "books",
-    "price": 618.41,
-    "discountPercentage": 17.96,
-    "rating": 3.87,
-    "stock": 45,
-    "tags": [
-      "books",
-      "trending"
-    ],
-    "brand": "BooksBrand",
-    "sku": "3376F5EC",
-    "weight": 1.01,
-    "dimensions": {
-      "width": 34.9,
-      "height": 36.54,
-      "depth": 7.81
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435405"
+    {
+      "id": 102,
+      "title": "IT ENDS WITH US - Novel by Colleen Hoover",
+      "description": "This is a premium quality books product, built for daily use and high performance.",
+      "category": "books",
+      "price": 169,
+      "originalPrice": 499,
+      "discountPercentage": 66,
+      "rating": 4.7,
+      "stock": 84,
+      "tags": ["books", "trending"],
+      "brand": "BooksBrand",
+      "sku": "BOOK002",
+      "weight": 1.17,
+      "dimensions": { "width": 15.26, "height": 23.74, "depth": 7.82 },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Heart-wrenching and powerful. Couldn’t put it down!",
+          "reviewerName": "Ayesha Kapoor",
+          "reviewerEmail": "ayesha.kapoor@email.com",
+          "date": "2025-04-09T10:20:00"
+        },
+        {
+          "rating": 4,
+          "comment": "Beautifully written with raw emotions. Definitely recommend.",
+          "reviewerName": "Kunal Raj",
+          "reviewerEmail": "kunal.raj@email.com",
+          "date": "2025-04-10T11:00:00"
+        },
+        {
+          "rating": 2,
+          "comment": "Not really my type of story, felt dragged in parts.",
+          "reviewerName": "Simran Kaur",
+          "reviewerEmail": "simran.kaur@email.com",
+          "date": "2025-04-11T12:15:00"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.435537",
+        "updatedAt": "2025-04-09T06:45:13.435539",
+        "barcode": "5780284616622",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435405"
-      },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435405"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435410",
-      "updatedAt": "2025-04-09T06:45:13.435412",
-      "barcode": "1536605577045",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/book/u/u/m/prince-it-ends-with-us-original-imah9dgkv7qyujmg.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/book/u/u/m/prince-it-ends-with-us-original-imah9dgkv7qyujmg.jpeg?q=70"
     },
-    "images": [
-      "https://example.com/book2.jpg"
-    ],
-    "thumbnail": "https://example.com/book2.jpg"
-  },
-  {
-    "id": 30,
-    "title": "Book Title 3",
-    "description": "This is a premium quality books product, built for daily use and high performance.",
-    "category": "books",
-    "price": 511.28,
-    "discountPercentage": 19.5,
-    "rating": 4.49,
-    "stock": 40,
-    "tags": [
-      "books",
-      "trending"
-    ],
-    "brand": "BooksBrand",
-    "sku": "CFB6D85B",
-    "weight": 1.97,
-    "dimensions": {
-      "width": 20.22,
-      "height": 24.36,
-      "depth": 8.97
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435460"
+    {
+      "id": 103,
+      "title": "Solo Leveling, Vol. 8 (comic)",
+      "description": "This is a premium quality books product, built for daily use and high performance.",
+      "category": "books",
+      "price": 251,
+      "originalPrice": 2099,
+      "discountPercentage": 88,
+      "rating": 4.7,
+      "stock": 84,
+      "tags": ["books", "trending"],
+      "brand": "BooksBrand",
+      "sku": "BOOK003",
+      "weight": 1.17,
+      "dimensions": { "width": 15.26, "height": 23.74, "depth": 7.82 },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Absolutely insane artwork and action! 10/10 for manga lovers.",
+          "reviewerName": "Manish Verma",
+          "reviewerEmail": "manish.verma@email.com",
+          "date": "2025-04-09T10:30:00"
+        },
+        {
+          "rating": 4,
+          "comment": "Great addition to the series, kept me hooked throughout.",
+          "reviewerName": "Devika Nair",
+          "reviewerEmail": "devika.nair@email.com",
+          "date": "2025-04-10T09:45:00"
+        },
+        {
+          "rating": 3,
+          "comment": "Good, but I expected a bit more from this volume.",
+          "reviewerName": "Arjun Patel",
+          "reviewerEmail": "arjun.patel@email.com",
+          "date": "2025-04-11T11:10:00"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.435537",
+        "updatedAt": "2025-04-09T06:45:13.435539",
+        "barcode": "5780284616623",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435460"
-      },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435460"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 3,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435463",
-      "updatedAt": "2025-04-09T06:45:13.435465",
-      "barcode": "1937554868343",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/book/g/d/c/solo-leveling-vol-8-comic-original-imahy5kgrhcc2tq8.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/book/g/d/c/solo-leveling-vol-8-comic-original-imahy5kgrhcc2tq8.jpeg?q=70"
     },
-    "images": [
-      "https://example.com/book3.jpg"
-    ],
-    "thumbnail": "https://example.com/book3.jpg"
-  },
-  {
-    "id": 31,
-    "title": "Book Title 4",
-    "description": "This is a premium quality books product, built for daily use and high performance.",
-    "category": "books",
-    "price": 916.16,
-    "discountPercentage": 22.38,
-    "rating": 4.95,
-    "stock": 46,
-    "tags": [
-      "books",
-      "trending"
-    ],
-    "brand": "BooksBrand",
-    "sku": "68F13584",
-    "weight": 1.68,
-    "dimensions": {
-      "width": 40.16,
-      "height": 32.91,
-      "depth": 7.26
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435498"
+    {
+      "id": 104,
+      "title": "Ikigai",
+      "description": "This is a premium quality books product, built for daily use and high performance.",
+      "category": "books",
+      "price": 357,
+      "originalPrice": 559,
+      "discountPercentage": 36,
+      "rating": 4.7,
+      "stock": 84,
+      "tags": ["books", "trending"],
+      "brand": "BooksBrand",
+      "sku": "BOOK004",
+      "weight": 1.17,
+      "dimensions": { "width": 15.26, "height": 23.74, "depth": 7.82 },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Simple yet so meaningful. Changed my perspective on life.",
+          "reviewerName": "Sneha Joshi",
+          "reviewerEmail": "sneha.joshi@email.com",
+          "date": "2025-04-09T10:40:00"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice concepts, very calming to read.",
+          "reviewerName": "Rahul Banerjee",
+          "reviewerEmail": "rahul.banerjee@email.com",
+          "date": "2025-04-10T10:00:00"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as deep as I expected, felt repetitive.",
+          "reviewerName": "Meera Singh",
+          "reviewerEmail": "meera.singh@email.com",
+          "date": "2025-04-11T13:20:00"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2025-04-09T06:45:13.435537",
+        "updatedAt": "2025-04-09T06:45:13.435539",
+        "barcode": "5780284616624",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435498"
-      },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435498"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 5,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435500",
-      "updatedAt": "2025-04-09T06:45:13.435502",
-      "barcode": "4820302400360",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://example.com/book4.jpg"
-    ],
-    "thumbnail": "https://example.com/book4.jpg"
-  },
-  {
-    "id": 32,
-    "title": "Book Title 5",
-    "description": "This is a premium quality books product, built for daily use and high performance.",
-    "category": "books",
-    "price": 554.29,
-    "discountPercentage": 9.62,
-    "rating": 4.7,
-    "stock": 84,
-    "tags": [
-      "books",
-      "trending"
-    ],
-    "brand": "BooksBrand",
-    "sku": "03D16FA9",
-    "weight": 1.17,
-    "dimensions": {
-      "width": 15.26,
-      "height": 23.74,
-      "depth": 7.82
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435534"
-      },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435534"
-      },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435534"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 2,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435537",
-      "updatedAt": "2025-04-09T06:45:13.435539",
-      "barcode": "5780284616621",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://example.com/book5.jpg"
-    ],
-    "thumbnail": "https://example.com/book5.jpg"
-  },
-  {
-    "id": 33,
-    "title": "Book Title 6",
-    "description": "This is a premium quality books product, built for daily use and high performance.",
-    "category": "books",
-    "price": 583.54,
-    "discountPercentage": 11.18,
-    "rating": 3.86,
-    "stock": 91,
-    "tags": [
-      "books",
-      "trending"
-    ],
-    "brand": "BooksBrand",
-    "sku": "2034FD72",
-    "weight": 1.35,
-    "dimensions": {
-      "width": 25.05,
-      "height": 12.4,
-      "depth": 7.42
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-5 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent product!",
-        "reviewerName": "Alice Smith",
-        "reviewerEmail": "alice@example.com",
-        "date": "2025-04-09T06:45:13.435568"
-      },
-      {
-        "rating": 4,
-        "comment": "Very good, satisfied.",
-        "reviewerName": "Bob Jones",
-        "reviewerEmail": "bob@example.com",
-        "date": "2025-04-09T06:45:13.435568"
-      },
-      {
-        "rating": 3,
-        "comment": "Average experience.",
-        "reviewerName": "Carol Lee",
-        "reviewerEmail": "carol@example.com",
-        "date": "2025-04-09T06:45:13.435568"
-      }
-    ],
-    "returnPolicy": "30 days return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-04-09T06:45:13.435571",
-      "updatedAt": "2025-04-09T06:45:13.435572",
-      "barcode": "1509245437586",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://example.com/book6.jpg"
-    ],
-    "thumbnail": "https://example.com/book6.jpg"
-  }
+      "images": [
+        "https://rukminim2.flixcart.com/image/612/612/xif0q/book/h/k/z/ikigai-original-imag7t8t9fgzsyw9.jpeg?q=70"
+      ],
+      "thumbnail": "https://rukminim2.flixcart.com/image/612/612/xif0q/book/h/k/z/ikigai-original-imag7t8t9fgzsyw9.jpeg?q=70"
+    }
+  
+  
 ]
