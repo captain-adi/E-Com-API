@@ -20,7 +20,7 @@ const signup = asyncHandler(async (req, res) => {
   const accessToken = newUser.generateAccessToken();
   const options = {
     httpOnly: true,
-    secure: false,
+    secure: true,
   };
 
   res
@@ -52,7 +52,7 @@ const login = asyncHandler(async (req, res) => {
 
   const options = {
     httpOnly: true,
-    secure: false,
+    secure: true,
   };
 
   res
