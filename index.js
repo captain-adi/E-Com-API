@@ -5,9 +5,11 @@ import productRoutes from "./src/routes/product_route.js";
 import categoryRoutes from "./src/routes/category_route.js";
 import authRoutes from "./src/routes/auth_route.js";
 import cookieParser from "cookie-parser";
+import passport from "passport";
 const app = express();
 
 app.use(express.json());
+app.use(passport.initialize());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({

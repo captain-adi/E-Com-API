@@ -26,7 +26,15 @@ const signup = asyncHandler(async (req, res) => {
   res
     .status(200)
     .cookie("accessToken", accessToken, options)
-    .json(new ApiResponse(true, "user registered successfully", 200));
+    .json(
+      new ApiResponse(true, "user registered successfully", 200, {
+        user: {
+          id: user._id,
+          username: user.username,
+          email: user.email,
+        },
+      })
+    );
 });
 
 const login = asyncHandler(async (req, res) => {
@@ -65,6 +73,7 @@ const logout = asyncHandler(async (req, res) => {
 });
 
 const isAuth = asyncHandler(async (req, res) => {
+  const user = req.user;
   res.status(200).json(
     new ApiResponse(true, "User is loggedin ", 200, {
       user: { id: user._id, username: user.username, email: user.email },
