@@ -4,6 +4,12 @@ import asyncHandler from "../utils/AsyncHandler.js";
 import ErrorHandler from "../utils/ErrorHander.js";
 import bycrypt from "bcrypt";
 
+const options = {
+  httpOnly: true,
+  secure: true,
+  sameSite: "none",
+};
+
 const signup = asyncHandler(async (req, res) => {
   const { username, email, password } = req.body;
   const user = await User.findOne({ email });
@@ -18,10 +24,6 @@ const signup = asyncHandler(async (req, res) => {
   });
 
   const accessToken = newUser.generateAccessToken();
-  const options = {
-    httpOnly: true,
-    secure: true,
-  };
 
   res
     .status(200)
@@ -50,11 +52,6 @@ const login = asyncHandler(async (req, res) => {
 
   const accessToken = await user.generateAccessToken();
 
-  const options = {
-    httpOnly: true,
-    secure: true,
-  };
-
   res
     .status(200)
     .cookie("accessToken", accessToken, options)
@@ -68,7 +65,7 @@ const login = asyncHandler(async (req, res) => {
 const logout = asyncHandler(async (req, res) => {
   res
     .status(200)
-    .clearCookie("accessToken")
+    .clearCookie("accessToken", options)
     .json(new ApiResponse(true, "Logout successful", 200));
 });
 
