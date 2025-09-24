@@ -4,6 +4,7 @@ import cors from "cors";
 import productRoutes from "./src/routes/product_route.js";
 import categoryRoutes from "./src/routes/category_route.js";
 import authRoutes from "./src/routes/auth_route.js";
+import addressRoutes from "./src/routes/address_route.js";
 import cookieParser from "cookie-parser";
 import passport from "passport";
 const app = express();
@@ -27,6 +28,7 @@ app.listen(process.env.PORT, () => {
 app.use("/api/product", productRoutes);
 app.use("/api/category", categoryRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/api/address", addressRoutes);
 
 // app.get("/api/create", async (req, res) => {
 //   const data = await Product.create(productData);

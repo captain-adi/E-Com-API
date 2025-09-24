@@ -41,7 +41,7 @@ const signup = asyncHandler(async (req, res) => {
 
 const login = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
-  const user = await User.findOne({ email });
+  const user = await User.findOne({ email }).populate("address");
   if (!user) {
     throw new ErrorHandler("you do not have account please signup!", 401);
   }
@@ -57,7 +57,12 @@ const login = asyncHandler(async (req, res) => {
     .cookie("accessToken", accessToken, options)
     .json(
       new ApiResponse(true, "login successful", 200, {
-        user: { id: user._id, username: user.username, email: user.email },
+        user: {
+          id: user._id,
+          username: user.username,
+          email: user.email,
+          address: user.address,
+        },
       })
     );
 });
@@ -70,10 +75,15 @@ const logout = asyncHandler(async (req, res) => {
 });
 
 const isAuth = asyncHandler(async (req, res) => {
-  const user = req.user;
+  const user = await User.findById(req.user._id).populate("address");
   res.status(200).json(
     new ApiResponse(true, "User is loggedin ", 200, {
-      user: { id: user._id, username: user.username, email: user.email },
+      user: {
+        id: user._id,
+        username: user.username,
+        email: user.email,
+        address: user.address,
+      },
     })
   );
 });
