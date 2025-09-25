@@ -35,7 +35,18 @@ const getAllAddress = asyncHandler(async (req, res) => {
 });
 
 const editAddress = asyncHandler(async (req, res) => {
-  res.send("Edit address");
+  const userId = req.user._id;
+  const address = req.body;
+  const addressId = req.params.id;
+  const updatedAddress = await Address.findByIdAndUpdate(addressId, address, {
+    new: true,
+    runValidators: true,
+  });
+  res
+    .status(200)
+    .json(
+      new ApiResponse(true, "Address updated successfully", 200, updatedAddress)
+    );
 });
 const deleteAddress = asyncHandler(async (req, res) => {
   const addressId = req.params.id;
