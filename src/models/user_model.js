@@ -1,6 +1,16 @@
 import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
+
+const bagItemSchema = new mongoose.Schema({
+  productId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Product",
+    required: true,
+  },
+  quantity: { type: Number, required: true, min: 1 },
+});
+
 const userSchema = new mongoose.Schema(
   {
     username: { type: String, required: true },
@@ -12,6 +22,7 @@ const userSchema = new mongoose.Schema(
         ref: "Address",
       },
     ],
+    bagItems: [bagItemSchema],
   },
   { timestamps: true }
 );
