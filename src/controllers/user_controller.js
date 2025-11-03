@@ -17,11 +17,17 @@ const addToBag = asyncHandler(async (req, res) => {
   const product = user.bagItems.find(
     (items) => items.productId.toString() === productId
   );
-
   if (product) {
     product.quantity += quantity;
   } else {
     user.bagItems.push({ productId, quantity });
+    await user.save();
+    res
+      .status(200)
+      .json(
+        new ApiResponse(true, "Item added to bag", 200, { productId, quantity })
+      );
+    return;
   }
   await user.save();
   res

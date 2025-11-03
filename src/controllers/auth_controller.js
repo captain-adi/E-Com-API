@@ -62,6 +62,7 @@ const login = asyncHandler(async (req, res) => {
           username: user.username,
           email: user.email,
           address: user.address,
+          bagItems: user.bagItems,
         },
       })
     );
